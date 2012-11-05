@@ -1,0 +1,3 @@
+CREATE SCHEMA [App-ReadOnlyRole]
+AUTHORIZATION [App-ReadOnlyRole]
+GO

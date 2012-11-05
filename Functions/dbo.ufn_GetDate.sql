@@ -1,0 +1,17 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+ 
+
+CREATE FUNCTION dbo.ufn_GetDate (@i INT)
+RETURNS DateTime
+AS
+ BEGIN
+  DECLARE @Today DateTime
+  
+  SELECT @Today = GetDate()
+  
+  RETURN (@Today)
+ END
+GO

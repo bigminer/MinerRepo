@@ -1,0 +1,3 @@
+CREATE ROLE [App-ReadOnlyRole]
+AUTHORIZATION [dbo]
+GO
